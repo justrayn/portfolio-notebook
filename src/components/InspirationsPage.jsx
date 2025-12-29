@@ -8,17 +8,17 @@ function InspirationsPage() {
     {
       title: 'SpoonfedStudy',
       gif: sfs,
-      description: 'Helps me keep going through creative ways'
+      description: 'fuck good enough-chase greatness'
     },
     {
       title: 'Doraemon',
       gif: doraemon,
-      description: 'Childhood'
+      description: 'Gadgets can help—but you yourself must make the effort.'
     },
     {
       title: 'Marc Brunet',
       gif: marc,
-      description: 'Motivates me to study art'
+      description: '100 hours of quality study will easily beat 10,000 hours of mindless practice.'
     },
     {
       title: 'Little Witch Academia',
