@@ -2,7 +2,7 @@ import emailIcon from '../assets/icons8-gmail-50.png'
 import githubIcon from '../assets/icons8-github-24.png'
 import linkedinIcon from '../assets/icons8-linkedin-50.png'
 import resumeIcon from '../assets/icons8-resume-50.png'
-import profileImage from '../assets/rat.jpg'
+import profileImage from '../assets/rat.gif'
 import LightIcon from '../assets/icons8-light-mode-78.png'      // ← ADD
 import DarkIcon from '../assets/icons8-dark-mode-50.png'       // ← ADD
      // ← ADD
