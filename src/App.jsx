@@ -7,10 +7,12 @@ import JourneyPage from './components/JourneyPage'
 import SkillsPage from './components/SkillsPage'
 import ProjectsPage from './components/ProjectsPage'
 import InspirationsPage from './components/InspirationsPage'
+import { useTheme } from './hooks/useTheme'  // ← ADD THIS LINE
 
 function App() {
   const [currentPage, setCurrentPage] = useState('about')
   const [isTransitioning, setIsTransitioning] = useState(false)
+  const theme = useTheme()  // ← ADD THIS LINE
 
   const pages = {
     about: <AboutPage />,
@@ -33,7 +35,7 @@ function App() {
 
   return (
     <div className="container">
-      <Sidebar />
+      <Sidebar theme={theme} />  {/* ← ADD theme={theme} HERE */}
       <div className="main-content">
         <NotebookTabs 
           currentPage={currentPage} 
